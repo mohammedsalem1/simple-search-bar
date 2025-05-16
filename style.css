@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin-top:5rem ;
+}
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+.search-wrapper label{
+    font-size: 1.6rem;
+}
+
+.search-wrapper input {
+    font-size: 1.5rem;
+    width: 30rem;
+    padding: 5px;
+}
+.quotes-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.card {
+  border: 1px solid black;
+  background-color: white;
+  padding: .5rem;
+}
+
+.card > .header {
+  margin-bottom: .25rem;
+}
+
+.card > .body {
+  font-size: 2rem;
+  color: #777;
+}
+#errorMessage {
+  color: red;
+  font-size: 2rem;
+}
